@@ -40,7 +40,6 @@
 	<h1>{title}</h1>
 	<div class="counter-wrap">
 		{#each counters as counter, index}
-			<!-- <Counter count={counter.count} bind:name = {counter.name}/> -->
 			<div class="counter-item">
 				<input type="text" class="input" bind:value="{counter.name}">
 				<div class="num">{counter.count}</div>
